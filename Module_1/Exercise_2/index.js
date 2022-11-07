@@ -1,6 +1,6 @@
 let nombre = "gonsalo";
 let edad = 26;
-let mayorDeEdad = true;
+let mayorDeEdad = edad > 18;
 let direccion = {
     calle: "Duques de Nájera, 97, 1ºJ",
 };
