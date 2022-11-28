@@ -9,3 +9,15 @@ const personas = [
 
     { nombre: "Laura", edad: 19 },
 ];
+
+function mayoresDeEdad(personas) {
+    const mayores = [];
+    for (let i = 0; i < personas.length; i++) {
+        if (personas[i].edad >= 18) {
+            mayores.push(personas[i]);
+        }
+    }
+    return mayores;
+}
+
+console.log(mayoresDeEdad(personas));
